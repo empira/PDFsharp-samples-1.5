@@ -33,6 +33,7 @@ The samples can be used with the NuGet packages. This is the simple way.
   of the "Manage NuGet Packages" dialog. Click "Restore" to get the packages.
 - Click "Close" to leave the "Manage NuGet Packages" dialog. The samples
   should now compile and run without errors.
+- If there are problems with HelloWorld.pdf: Unzip the file from samples\assets\pdfs\HelloWorld.zip.
 
 Using the samples with the PDFsharp source package
 --------------------------------------------------
