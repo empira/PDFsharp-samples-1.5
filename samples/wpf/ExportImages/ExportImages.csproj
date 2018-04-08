@@ -28,7 +28,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>TRACE;WPF</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -37,11 +37,11 @@
     </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PdfSharp-wpf, Version=1.50.4820.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\PDFsharp-wpf.1.50.4820-RC1\lib\net30\PdfSharp-wpf.dll</HintPath>
+    <Reference Include="PdfSharp-wpf, Version=1.50.4845.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PDFsharp-wpf.1.50.4845-RC2a\lib\net30\PdfSharp-wpf.dll</HintPath>
     </Reference>
-    <Reference Include="PdfSharp.Charting-wpf, Version=1.50.4820.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\PDFsharp-wpf.1.50.4820-RC1\lib\net30\PdfSharp.Charting-wpf.dll</HintPath>
+    <Reference Include="PdfSharp.Charting-wpf, Version=1.50.4845.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\PDFsharp-wpf.1.50.4845-RC2a\lib\net30\PdfSharp.Charting-wpf.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
